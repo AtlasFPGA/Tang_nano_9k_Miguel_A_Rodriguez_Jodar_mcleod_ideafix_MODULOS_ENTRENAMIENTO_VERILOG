@@ -1,0 +1,1 @@
+# Tang_nano_9k_Miguel_A_Rodriguez_Jodar_mcleod_ideafix_MODULOS_ENTRENAMIENTO_VERILOG
