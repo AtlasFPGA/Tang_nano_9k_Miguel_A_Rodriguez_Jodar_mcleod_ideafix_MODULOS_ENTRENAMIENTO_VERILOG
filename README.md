@@ -2,10 +2,21 @@
 
 La nomenclatura usada es la misma que el núcleo más avanzado hasta la fecha, el núcleo disponible de Next186, luego para esta microfpga seguiré dicha nomenclatura en las señales y sus restricciones a la hora de colocarlas en cada patilla.
 
+Profesor Miguel Angel:
+![Profesor Miguel Angel](https://github.com/AtlasFPGA/Tang_nano_9k_Miguel_A_Rodriguez_Jodar_mcleod_ideafix_MODULOS_ENTRENAMIENTO_VERILOG/blob/main/Fotos/MCLEOD_IDEAFIX.jpg)
+
 Usamos la explicación del Profesor Miguel Angel, sacado de su primera comunicación en forofpga:
 http://www.forofpga.es/viewtopic.php?t=60
 
 Una de las características más comunes de las llamadas placas "entrenadoras" de FPGA (es decir, las placas que se venden precisamente para poder practicar con FPGAs por parte de Digilent, Terasic, y otros) es que disponen de cantidad de sistemas sencillos de usar, tanto de entrada de datos (botoneras, interruptores, conmutadores rotativos, etc) como de salida de datos (leds, displays de 7 segmentos, displays OLED, etc).
+
+---
+
+Funcionalidad de la entrenadora real creada por Miguel Angel:
+![Funcionalidad de la entrenadora real creada por Miguel Angel](https://github.com/AtlasFPGA/Tang_nano_9k_Miguel_A_Rodriguez_Jodar_mcleod_ideafix_MODULOS_ENTRENAMIENTO_VERILOG/blob/main/Fotos/de2-115.jpg)
+
+---
+
 
 Estos añadidos sirven fundamentalmente para ayudar a depurar el hardware que se está diseñando. Depurar hardware tiende a ser más complejo que depurar software, y en muchos casos, hay que optar por algo equivalente a lo que en software es un mensaje de depuración, un pitido, o alguna otra cosa. Por ejemplo: estás depurando un módulo hardware de acceso a un teclado y quieres comprobar que efectivamente el sistema se da cuenta de que se ha pulsado una tecla. Pues bien, coges y enlazas un led a la señal que indica que una tecla se ha pulasdo. Así, cuando se pulsa una tecla, se enciende el led y se apaga cuando la sueltas. Cosas así...
 
@@ -22,6 +33,13 @@ Concretamente, las características del módulo "display", que es como lo he lla
 - Los elementos visuales del módulo pueden configurarse para que aparezcan a partir de cualquier posición vertical de pantalla (centrados horizontalmente). Se puede incluso usar una línea de pantalla superior a la máxima visible (479) para ocultar por completo el display y así tener toda la pantalla para generar gráficos.
 
 En esta figura podeis ver qué pinta tiene el display. Antes de echar la foto, he pulsado F1, F5, F6 y F8 para encender algunos interruptores. La tira de leds que hay debajo de ellos muestra el valor fijo binario 10101010. El display hexadecimal muestra la secuencia de dígitos 0123456789AB usando la fuente por defecto (IBM 437).
+
+---
+
+La maguia del módulo display, en realidad es mucho mejor que las entrenadoras clásicas al poder disfrutar de ver como se manejan desde inicializaciones de roms a dibujar en pantalla VGA, si se quiere limitarse a accionar los interruptores generar números en los BCD se aprende los mismos contenidos que con cualquier entrenadora del mercado. ¡Insisto que se aprende más con estos ejercicios!
+[Modulo display](https://github.com/AtlasFPGA/Tang_nano_9k_Miguel_A_Rodriguez_Jodar_mcleod_ideafix_MODULOS_ENTRENAMIENTO_VERILOG/blob/main/Fotos/display.jpg)
+
+---
 
 Para haceros una idea del tamaño de este display respecto de la anchura de la pantalla, tened en cuenta que el punto central del 0 ocupa 4 pixeles (un puntito hecho con 2x2 pixeles). Es decir, que cada carácter ocupa 16x16 pixeles, y dado que hay 12 caracteres más 2 espacios en blanco, la anchura de esa parte del display es de 112 píxeles, es decir, un 17,5% de la pantalla.
 
