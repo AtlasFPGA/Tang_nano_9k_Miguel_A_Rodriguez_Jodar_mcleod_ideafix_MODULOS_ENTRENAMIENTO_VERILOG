@@ -1,0 +1,1 @@
+En este caso se usan los dos pll de la fpga para lograr 125Mhz y 25Mhz.
