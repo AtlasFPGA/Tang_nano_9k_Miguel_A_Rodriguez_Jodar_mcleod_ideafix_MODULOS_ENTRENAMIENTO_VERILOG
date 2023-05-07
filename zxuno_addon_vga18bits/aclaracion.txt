@@ -1,0 +1,1 @@
+Ficheros que hacen uso de la expansión de color a la matriz r2r de la vga ampliada del ZXUNO
