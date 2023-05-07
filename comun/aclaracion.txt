@@ -1,0 +1,1 @@
+ficheros base que fueron modificados para pasar la señal hblank necesaria por los envoltorios HDMI.
