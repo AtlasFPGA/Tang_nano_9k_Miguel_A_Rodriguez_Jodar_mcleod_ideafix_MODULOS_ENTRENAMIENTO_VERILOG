@@ -1,0 +1,2 @@
+Este es el tercer envoltorio HDMI para fpgas de intel y si tiene sonido habilitado.
+Se indica el No para indicar que no se usa en la síntesis de CYC1000 con la I/O Board ATLAS.
