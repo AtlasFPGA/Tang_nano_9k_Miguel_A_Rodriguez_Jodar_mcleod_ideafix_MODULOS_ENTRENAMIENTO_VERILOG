@@ -68,3 +68,20 @@ OJO en Quartus, porque este entorno tiene la costumbre de cuando menos te lo esp
 Cada ejemplo asume que el TLD proporciona un reloj de 25 MHz. En cada proyecto se ha incluido un generador de reloj adecuado a cada placa.
 
 Luego contaré más cosas, pero de momento podeis bichear con los ejemplos que os he pasado. Aunque esto no es un curso de HDL o de Verilog en particular, muchos de vosotros, sobre todo si teneis algo de bagaje en programación en C, Java u otro lenguaje con sintaxis similar, se sorprenderá al pillar la idea de todo el código, o al menos parte de él.
+
+---
+Actualmente y motivación de transladar estos ejercicios a una base de usuarios aún mayor:
+
+La placa Tang nano 9k incluso con sus limitaciones en los rpll es capaz de manejar correctamente el hdmi y estos ejercicios los visualiza sin problema, el Buffalo BL702 que gestiona la transferencia desde el USBC a la fpga es increíblemente rápido, cuando transfiere el flujo de datos de la fpga y una de sus emulaciones/funciones en la actualidad es implementar un FT2232D:
+
+Luego no es necesario comprar grabadores externos.
+
+Tang nano 9k incorpora grabador y mucho más en el futuro al disponer del Risc-v BL702:
+https://github.com/sipeed/RV-Debugger-BL702
+
+
+El diseño es familiar a los que conocen ATLAS dado que de serie tenemos HDMI USBC-jtag y SD, lo que ya pone la placa tang nano 9k en una posición de ventaja en cuanto
+al potencial que tiene.
+
+El coste en plena crisis de dicha fpga en plena crisis de los componentes, ha estado alrededor de los 18 Dólares al cualquier parte del mundo.
+La iniciativa ATLAS lo forman un grupo de usuarios/desarrolladores que conocen que el HDMI se accede de forma directa con buenos resultados aunque lleve mucho más esfuerzo.
