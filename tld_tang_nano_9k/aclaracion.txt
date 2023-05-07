@@ -1,0 +1,1 @@
+Donde se alojan los ficheros necesarios en la síntesis de los ejercicios de Miguel Angel, en la placa Tang nano 9k.
