@@ -83,5 +83,5 @@ https://github.com/sipeed/RV-Debugger-BL702
 El diseño es familiar a los que conocen ATLAS dado que de serie tenemos HDMI USBC-jtag y SD, lo que ya pone la placa tang nano 9k en una posición de ventaja en cuanto
 al potencial que tiene.
 
-El coste en plena crisis de dicha fpga en plena crisis de los componentes, ha estado alrededor de los 18 Dólares al cualquier parte del mundo.
-La iniciativa ATLAS lo forman un grupo de usuarios/desarrolladores que conocen que el HDMI se accede de forma directa con buenos resultados aunque lleve mucho más esfuerzo.
+El coste de la Tang nano 9k en plena crisis de los componentes es asumible unos "19 cafes en Buenos Aires", ha estado alrededor de los 18 Dólares Estadounidenses al cualquier parte del mundo.
+La iniciativa ATLAS lo forman un grupo de usuarios/desarrolladores que conocen que el HDMI se accede de forma directa con buenos resultados aunque lleve mucho más esfuerzo adaptar los fuentes.
