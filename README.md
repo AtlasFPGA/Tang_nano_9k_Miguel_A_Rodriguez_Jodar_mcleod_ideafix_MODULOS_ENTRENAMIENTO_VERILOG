@@ -38,7 +38,10 @@ En esta figura podeis ver qué pinta tiene el display. Antes de echar la foto, h
 ---
 
 La maguia del módulo display, en realidad es mucho mejor que las entrenadoras clásicas al poder disfrutar de ver como se manejan desde inicializaciones de roms a dibujar en pantalla VGA, si se quiere limitarse a accionar los interruptores generar números en los BCD se aprende los mismos contenidos que con cualquier entrenadora del mercado. ¡Insisto que se aprende más con estos ejercicios!
-[Modulo display](https://github.com/AtlasFPGA/Tang_nano_9k_Miguel_A_Rodriguez_Jodar_mcleod_ideafix_MODULOS_ENTRENAMIENTO_VERILOG/blob/main/Fotos/display.jpg)
+
+---
+
+![Modulo display](https://github.com/AtlasFPGA/Tang_nano_9k_Miguel_A_Rodriguez_Jodar_mcleod_ideafix_MODULOS_ENTRENAMIENTO_VERILOG/blob/main/Fotos/display.jpg)
 
 ---
 
