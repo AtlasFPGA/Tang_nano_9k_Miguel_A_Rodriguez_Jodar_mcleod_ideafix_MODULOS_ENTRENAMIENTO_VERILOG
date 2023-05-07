@@ -1,0 +1,1 @@
+Se crea automáticamente con ficheros que no ha enlazado, y me fué más comodo recopilar los ficheros .hex en esta localización.
