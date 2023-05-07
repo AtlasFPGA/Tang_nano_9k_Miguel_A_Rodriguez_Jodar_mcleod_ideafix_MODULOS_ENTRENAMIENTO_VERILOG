@@ -37,7 +37,7 @@ En esta figura podeis ver qué pinta tiene el display. Antes de echar la foto, h
 
 ---
 
-La maguia del módulo display, en realidad es mucho mejor que las entrenadoras clásicas al poder disfrutar de ver como se manejan desde inicializaciones de roms a dibujar en pantalla VGA, si se quiere limitarse a accionar los interruptores generar números en los BCD se aprende los mismos contenidos que con cualquier entrenadora del mercado. ¡Insisto que se aprende más con estos ejercicios!
+La magia del módulo display, en realidad es mucho mejor que las entrenadoras clásicas al poder disfrutar de ver como se manejan desde inicializaciones de roms a dibujar en pantalla VGA, si se quiere limitarse a accionar los interruptores generar números en los BCD se aprende los mismos contenidos que con cualquier entrenadora del mercado. ¡Insisto que se aprende más con estos ejercicios!
 
 ---
 
