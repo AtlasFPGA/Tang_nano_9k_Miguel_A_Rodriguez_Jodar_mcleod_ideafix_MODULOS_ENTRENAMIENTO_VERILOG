@@ -3,6 +3,7 @@
 La nomenclatura usada es la misma que el núcleo más avanzado hasta la fecha, el núcleo disponible de Next186, luego para esta microfpga seguiré dicha nomenclatura en las señales y sus restricciones a la hora de colocarlas en cada patilla.
 
 Profesor Miguel Angel:
+
 ![Profesor Miguel Angel](https://github.com/AtlasFPGA/Tang_nano_9k_Miguel_A_Rodriguez_Jodar_mcleod_ideafix_MODULOS_ENTRENAMIENTO_VERILOG/blob/main/Fotos/MCLEOD_IDEAFIX.jpg)
 
 Usamos la explicación del Profesor Miguel Angel, sacado de su primera comunicación en forofpga:
