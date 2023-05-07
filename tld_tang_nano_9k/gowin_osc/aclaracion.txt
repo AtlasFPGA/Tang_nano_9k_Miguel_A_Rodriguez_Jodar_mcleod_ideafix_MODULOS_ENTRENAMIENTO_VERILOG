@@ -1,0 +1,1 @@
+no se usa pero se trata de un oscilador de generación interna a la fpga
